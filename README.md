@@ -10,7 +10,7 @@
 </p>
 
 ## About Me
-I'm Asfandyar Yar, a 19-year-old second-year BSc Computer Science student at the University of Debrecen, Hungary, with a minor in Physics. I'm passionate about AI engineering, Retrieval-Augmented Generation (RAG), agentic AI, deep learning, and quantum computing. As a part-time Network Support Engineer at BMW Debrecen and instructor for the university's first Introduction to Quantum Computing course, I blend academic rigor with real-world application. My work focuses on hybrid quantum-AI systems, robust vision models, and intelligent educational tools.
+I'm Asfandyar Yar, a 19-year-old second-year BSc Computer Science student at the University of Debrecen, Hungary. I'm passionate about AI engineering, Retrieval-Augmented Generation (RAG), agentic AI, deep learning, and quantum computing. As a part-time Network Support Engineer at BMW Debrecen and instructor for the university's first Introduction to Quantum Computing course, I blend academic rigor with real-world application. My work focuses on hybrid quantum-AI systems, robust vision models, and intelligent educational tools.
 
 - **Current Focus**: Mastering agentic AI while advancing my BSc thesis on predictive SSL vision transformers under test-time distribution shifts.
 - **Goals**: Secure top AI/ML internships (Tesla, Google, Meta) and pursue a PhD at MIT, Harvard, or Toronto.
@@ -47,11 +47,11 @@ Here are selected projects demonstrating my expertise in AI, quantum, and relate
 3. **JEPA-RobustViT**  
    BSc thesis implementation: Predictive self-supervised learning (SSL) vision transformers with test-time adaptation for distribution shifts.  
    [Repository](https://github.com/asfandyar-prog/JEPA-RobustViT) | MIT License  
-   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MWNpMjR0cW5jZ2V2aXJ6bjR1Z3d0Z3o5ZGh1Z3p2b3I3Z3NpN2F3dHJ1NWN4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKN4aIIVlvB0h0s/giphy.gif" alt="ViT Animation" width="300" />
+   <img src="https://media.giphy.com/media/3o7TKN4aIIVlvB0h0s/giphy.gif" alt="ViT Animation" width="300" />
 
 4. **Quantum-Insight-RAG**  
    Production-deployed RAG system for quantum computing education, grounded in research papers and course materials.  
-   [Repository](https://github.com/asfandyar-prog/quantum-insight-rag) | [Live Demo](https://quantum-insight-rag-uevzvmkpjuczl7lvz5xmw.streamlit.app) | MIT License  
+   [Repository](https://github.com/asfandyar-prog/quantum-insight-rag) | [Live Demo](https://quantum-insight-rag-uevzvmkpujczla7lvz5xmw.streamlit.app) | MIT License  
 
 5. **Multi-Source RAG AI Assistant**  
    Advanced RAG system handling queries from multiple data sources with LLM-powered reasoning.  
