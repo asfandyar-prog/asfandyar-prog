@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=5000&pause=1000&color=007BFF&center=true&vCenter=true&width=600&lines=Asfandyar+Yar;AI+Systems+Engineer;Quantum+Computing+Instructor;Building+Agentic+AI+for+Tomorrow" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=5000&pause=1000&color=007BFF&center=true&vCenter=true&width=600&lines=Asfand+Yar;AI+Systems+Engineer;Quantum+Computing+Instructor;Building+Agentic+AI+for+Tomorrow" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 
 ## About Me
-I'm Asfandyar Yar, a 19-year-old second-year BSc Computer Science student at the University of Debrecen, Hungary. I'm passionate about AI engineering, Retrieval-Augmented Generation (RAG), agentic AI, deep learning, and quantum computing. As a part-time Network Support Engineer at BMW Debrecen and instructor for the university's first Introduction to Quantum Computing course, I blend academic rigor with real-world application. My work focuses on hybrid quantum-AI systems, robust vision models, and intelligent educational tools.
+I'm Asfand Yar,second-year BSc Computer Science student at the University of Debrecen, Hungary. I'm passionate about AI engineering, Retrieval-Augmented Generation (RAG), agentic AI, deep learning, and quantum computing. As a part-time Network Support Engineer at BMW Debrecen and instructor for the university's first Introduction to Quantum Computing course, I blend academic rigor with real-world application. My work focuses on hybrid quantum-AI systems, robust vision models, and intelligent educational tools.
 
 - **Current Focus**: Mastering agentic AI while advancing my BSc thesis on predictive SSL vision transformers under test-time distribution shifts.
 - **Goals**: Secure top AI/ML internships (Tesla, Google, Meta) and pursue a PhD at MIT, Harvard, or Toronto.
@@ -70,7 +70,7 @@ View all repositories: [GitHub Repos](https://github.com/asfandyar-prog?tab=repo
 
 ## Contact
 - Email: yarasfand886@gmail.com
-- LinkedIn: [Asfandyar Yar](https://www.linkedin.com/in/asfandyar-yar/)
+- LinkedIn: [Asfand Yar](https://www.linkedin.com/in/asfandyar-yar/)
 - WhatsApp: +36 704 026 802
 
 I'm open to collaborations on AI/quantum projects, internships, or research opportunities. Let's connect!
