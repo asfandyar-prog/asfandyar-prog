@@ -1,235 +1,219 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=5000&pause=1000&color=007BFF&center=true&vCenter=true&width=650&lines=Asfand+Yar;AI+Systems+Engineer;Deep+Learning+%7C+Agentic+AI+%7C+Quantum+Computing;Building+Next+Generation+AI+Systems" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://linkedin.com/in/asfandyar-yar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://github.com/asfandyar-prog"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="mailto:yarasfand886@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <img src="https://komarev.com/ghpvc/?username=asfandyar-prog&style=for-the-badge&color=blue">
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Asfand%20Yar&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Systems%20Engineer%20%7C%20Deep%20Learning%20Researcher&descAlignY=51&descAlign=50" width="100%"/>
 
----
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Asfand+Yar;AI+Systems+Engineer;Deep+Learning+Researcher;Vision+Transformer+Developer;Agentic+AI+Architect;Quantum+Computing+Instructor" alt="Typing SVG" /></a>
 
-# About Me
+<br/>
 
-I'm **Asfand Yar**, a **BSc Computer Science student (Minor in Physics)** at the **University of Debrecen, Hungary**.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/asfandyar-yar)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asfandyar-prog)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yarasfand886@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/asfandyar)
 
-I specialize in **Artificial Intelligence Engineering**, focusing on:
+<img src="https://komarev.com/ghpvc/?username=asfandyar-prog&label=Profile+Views&color=6E40C9&style=flat" alt="profile views" />
 
-- Agentic AI Systems
-- Deep Learning
-- Vision Transformers
-- Retrieval-Augmented Generation (RAG)
-- Quantum Computing
-
-I combine **research, engineering, and education** by building advanced AI systems and teaching emerging technologies.
-
-### Current Roles
-
-- Network Support Engineer — **BMW Debrecen**
-- Instructor — **Introduction to Quantum Computing**
-- Co-Lead — **GDG on Campus Debrecen**
-
-### Current Focus
-
-- Agentic AI architectures
-- Vision Transformers & Self-Supervised Learning
-- Robust AI systems under distribution shifts
-- Hybrid **Quantum + AI systems**
-
-### Long-Term Goals
-
-- Top **AI/ML internships** (Tesla, Google, Meta)
-- PhD in **AI or Quantum AI**
-- Build **world-class AI systems**
+</div>
 
 ---
 
-# Tech Stack & Skills
+## 🧠 About Me
 
-## Languages
+```python
+class AsfandYar:
+    def __init__(self):
+        self.name         = "Asfand Yar"
+        self.degree       = "BSc Computer Science (Minor: Physics)"
+        self.university   = "University of Debrecen"
+        self.location     = "Debrecen, Hungary 🇭🇺"
+        self.roles        = [
+            "Network Support Engineer @ BMW Debrecen",
+            "Quantum Computing Instructor",
+            "Co-Lead @ GDG on Campus Debrecen",
+        ]
+        self.research     = [
+            "Vision Transformers",
+            "Self-Supervised Learning",
+            "Test-Time Adaptation",
+            "Agentic AI",
+            "Retrieval Augmented Generation",
+            "Hybrid Quantum–AI Systems",
+        ]
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,git,github,linux,vscode,jupyter"/>
-</p>
-
----
-
-## AI / Machine Learning
-
-- Machine Learning
-- Deep Learning
-- Neural Networks
-- CNNs
-- Vision Transformers (ViT)
-- Self-Supervised Learning
-- Representation Learning
-- Test-Time Adaptation
-- Predictive SSL (JEPA)
-
----
-
-## Generative AI & LLM Engineering
-
-- Large Language Models
-- Retrieval Augmented Generation (RAG)
-- LangChain
-- Agentic AI
-- LangGraph
-- CrewAI
-- Multi-Agent Systems
-- Tool-Calling Agents
-- Reflection Loops
+    def current_focus(self):
+        return "Building systems at the intersection of perception, reasoning, and quantum computation."
+```
 
 ---
 
-## Deep Learning Frameworks
+## 🛠 Tech Stack
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
-</p>
+<div align="center">
 
-- PyTorch
-- Transformers
-- HuggingFace
-- Computer Vision
-- NLP
+**Languages**
 
----
+[![Languages](https://skillicons.dev/icons?i=python,java,c,cpp&theme=dark)](https://skillicons.dev)
 
-## Quantum Computing
+**AI / ML Frameworks**
 
-- Qiskit
-- Quantum Circuits
-- Hybrid Quantum-Classical Models
-- Quantum ML research
-- Quantum Algorithms
+[![AI/ML](https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark)](https://skillicons.dev)
 
----
+**Tools & Infra**
 
-# Research & Engineering Areas
+[![Tools](https://skillicons.dev/icons?i=git,github,linux,vscode,docker&theme=dark)](https://skillicons.dev)
 
-- Vision Transformers
-- Self-Supervised Learning
-- Robust AI Systems
-- Agentic AI
-- Multi-Agent Systems
-- Retrieval Systems
-- Quantum AI
+**Cloud & Databases**
 
----
+[![Cloud](https://skillicons.dev/icons?i=gcp,postgres,redis&theme=dark)](https://skillicons.dev)
 
-# Featured Projects
+</div>
 
-### JEPA-RobustViT
+<div align="center">
 
-BSc thesis on **predictive self-supervised Vision Transformers** with **test-time adaptation**.
+| Domain | Stack |
+|--------|-------|
+| **Deep Learning** | CNNs · Vision Transformers · Representation Learning · Predictive SSL · Neural Networks |
+| **Generative AI** | LangChain · LangGraph · CrewAI · RAG · Multi-Agent Systems · LLM Engineering |
+| **HuggingFace** | Transformers · Datasets · PEFT · Diffusers |
+| **Quantum** | Qiskit · Quantum Circuits · Hybrid Quantum-Classical Systems |
 
-Repository  
-https://github.com/asfandyar-prog/JEPA-RobustViT
+</div>
 
 ---
 
-### Quantum Insight RAG
+## 🚀 Featured Projects
 
-Production **Retrieval-Augmented Generation system** for quantum computing education.
+<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-Repository  
-https://github.com/asfandyar-prog/quantum-insight-rag
+### 🔭 [JEPA-RobustViT](https://github.com/asfandyar-prog/JEPA-RobustViT)
+> Joint Embedding Predictive Architecture fused with robust Vision Transformer design. Explores self-supervised visual representation learning with test-time adaptation under distribution shift.
 
-Live Demo  
-https://quantum-insight-rag-uevzvmkpujczla7lvz5xmw.streamlit.app
+`Vision Transformers` `JEPA` `SSL` `TTA`
 
----
+</td>
+<td width="50%">
 
-### Agentic AI
+### ⚛️ [quantum-insight-rag](https://github.com/asfandyar-prog/quantum-insight-rag)
+> A hybrid quantum-classical RAG system that leverages quantum circuits for semantic search and retrieval. Bridges quantum advantage with modern LLM pipelines.
 
-A **ReAct autonomous agent architecture** implemented from scratch.
+`Qiskit` `RAG` `LangChain` `Hybrid AI`
 
-Repository  
-https://github.com/asfandyar-prog/Agentic-Ai
+</td>
+</tr>
+<tr>
+<td width="50%">
 
----
+### 🤖 [Agentic-Ai](https://github.com/asfandyar-prog/Agentic-Ai)
+> Multi-agent orchestration framework for autonomous AI systems. Implements tool-use, memory, planning, and reflection loops using LangGraph and CrewAI.
 
-### Framework-Free Agent
+`LangGraph` `CrewAI` `Multi-Agent` `Autonomous AI`
 
-Autonomous AI agent with **reflection and reasoning loops**.
+</td>
+<td width="50%">
 
-Repository  
-https://github.com/asfandyar-prog/framework-free-agent
+### 🧩 [framework-free-agent](https://github.com/asfandyar-prog/framework-free-agent)
+> Bare-metal agentic AI agent built without LangChain or CrewAI. Raw LLM calls, custom tool routing, and minimal dependency footprint.
 
----
+`Python` `LLM` `Tool Use` `Zero Dependencies`
 
-### Multi Source RAG Assistant
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-Advanced RAG system capable of **reasoning across multiple knowledge sources**.
+### 📚 [multi-source-rag-ai-assistant](https://github.com/asfandyar-prog/multi-source-rag-ai-assistant)
+> Intelligent assistant ingesting PDFs, web pages, and databases simultaneously. Multi-vector retrieval with reranking and source attribution.
 
-Repository  
-https://github.com/asfandyar-prog/multi-source-rag-ai-assistant
+`RAG` `Multi-Source` `Embeddings` `LLM`
 
----
+</td>
+<td width="50%">
 
-### NLP Resume Screener
+### 📄 [NLP-Based-Resume-Screener](https://github.com/asfandyar-prog/NLP-Based-Resume-Screener)
+> Automated resume screening pipeline using NLP and semantic similarity. Matches candidates to job descriptions with explainable ranking scores.
 
-AI system that **automatically classifies resumes using NLP models**.
+`NLP` `HuggingFace` `Semantic Search` `Transformers`
 
-Repository  
-https://github.com/asfandyar-prog/NLP-Based-Resume-Screener
-
----
-
-# GitHub Analytics
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=asfandyar-prog&show_icons=true&theme=radical&hide_border=true" width="48%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=asfandyar-prog&theme=radical&hide_border=true" width="48%">
-</p>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asfandyar-prog&layout=compact&theme=radical&hide_border=true">
-</p>
-
----
-
-# GitHub Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=asfandyar-prog&theme=react-dark&hide_border=true"/>
-</p>
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
-# Contribution Snake
+## 📊 GitHub Statistics
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/asfandyar-prog/asfandyar-prog/output/github-contribution-grid-snake.svg"/>
-</p>
+<div align="center">
 
----
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=asfandyar-prog&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asfandyar-prog&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
 
-# Achievements
+</div>
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=asfandyar-prog&theme=radical&no-frame=true&column=6"/>
-</p>
+<div align="center">
 
----
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=asfandyar-prog&theme=tokyonight&hide_border=true&background=0d1117&stroke=6E40C9&ring=6E40C9&fire=ff6b6b&currStreakLabel=6E40C9" />
 
-# Connect With Me
-
-Email  
-yarasfand886@gmail.com
-
-University Email  
-asfandyar@mailbox.unideb.hu
-
-LinkedIn  
-https://www.linkedin.com/in/asfandyar-yar
-
-WhatsApp  
-+36 704 026 802
+</div>
 
 ---
 
-⭐ I'm open to **AI research collaborations, internships, and innovative AI projects**.
+## 📈 Contribution Graph
+
+<div align="center">
+
+[![Asfand Yar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asfandyar-prog&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6E40C9&line=6E40C9&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=asfandyar-prog&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asfandyar-prog/asfandyar-prog/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asfandyar-prog/asfandyar-prog/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/asfandyar-prog/asfandyar-prog/output/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## 📬 Contact
+
+<div align="center">
+
+| Platform | Link |
+|----------|------|
+| 💼 LinkedIn | [linkedin.com/in/asfandyar-yar](https://linkedin.com/in/asfandyar-yar) |
+| 🐙 GitHub | [github.com/asfandyar-prog](https://github.com/asfandyar-prog) |
+| 📧 Email | [yarasfand886@gmail.com](mailto:yarasfand886@gmail.com) |
+| 💬 WhatsApp | [Message me](https://wa.me/message/asfandyar) |
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
+
+*"The best way to predict the future is to invent it." — Alan Kay*
+
+</div>
