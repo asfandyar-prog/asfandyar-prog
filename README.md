@@ -195,7 +195,7 @@ class AsfandYar:
 | 💼 LinkedIn | [linkedin.com/in/asfandyar-yar](https://linkedin.com/in/asfandyar-yar) |
 | 🐙 GitHub | [github.com/asfandyar-prog](https://github.com/asfandyar-prog) |
 | 📧 Email | [yarasfand886@gmail.com](mailto:yarasfand886@gmail.com) |
-| 💬 WhatsApp | [Message me](https://wa.me/message/asfandyar) |
+| 💬 WhatsApp | [Message me](https://wa.me/message/+36704026802) |
 
 </div>
 
