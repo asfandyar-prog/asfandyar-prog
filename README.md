@@ -124,10 +124,8 @@ class AsfandYar:
 <tr>
 <td width="50%">
 
-### 📚 [multi-source-rag-ai-assistant](https://github.com/asfandyar-prog/multi-source-rag-ai-assistant)
-> Intelligent assistant ingesting PDFs, web pages, and databases simultaneously. Multi-vector retrieval with reranking and source attribution.
-
-`RAG` `Multi-Source` `Embeddings` `LLM`
+### 📚 [QuantumMind Plateform](https://github.com/asfandyar-prog/quantummind.git)
+>A production-grade, multi-agent AI platform for quantum computing education — built by a student who designed and taught the course it's based on.
 
 </td>
 <td width="50%">
