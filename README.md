@@ -25,12 +25,7 @@ class AsfandYar:
         self.name         = "Asfand Yar"
         self.degree       = "BSc Computer Science (Minor: Physics)"
         self.university   = "University of Debrecen"
-        self.location     = "Debrecen, Hungary 🇭🇺"
-        self.roles        = [
-            "Network Support Engineer @ BMW Debrecen",
-            "Quantum Computing Instructor",
-            "Co-Lead @ GDG on Campus Debrecen",
-        ]
+        self.location     = "Debrecen"
         self.research     = [
             "Vision Transformers",
             "Self-Supervised Learning",
