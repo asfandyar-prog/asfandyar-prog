@@ -25,7 +25,7 @@ asfand = {
     "location"  : "Debrecen, Hungary 🇭🇺",
     "degree"    : "BSc CS — University of Debrecen",
     "supervisor": "Prof. Balázs Harangi (Deputy Dean)",
-    "incoming"  : "Forward Deployed Engineer @ BMW",
+    
     "focus"     : [
         "Agentic AI & LLM Systems",
         "Generative AI & RAG",
