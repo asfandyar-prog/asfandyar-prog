@@ -1,203 +1,115 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Asfand%20Yar&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Systems%20Engineer%20%7C%20Deep%20Learning%20Researcher&descAlignY=51&descAlign=50" width="100%"/>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Asfand+Yar;AI+Systems+Engineer;Deep+Learning+Researcher;Vision+Transformer+Developer;Agentic+AI+Architect;Quantum+Computing+Instructor" alt="Typing SVG" /></a>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=4&section=header" width="100%"/>
+</div>
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asfand-yar-3966b8291/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asfandyar-prog)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yarasfand886@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/asfandyar)
+```
+I build AI systems that stay reliable when the real world
+disagrees with the training set.
+```
 
-<img src="https://komarev.com/ghpvc/?username=asfandyar-prog&label=Profile+Views&color=6E40C9&style=flat" alt="profile views" />
+<br/>
 
-</div>
+**Asfand Yar** · BSc Computer Science · University of Debrecen, Hungary  
+Research collaborator with [Prof. Balázs Harangi](https://www.inf.unideb.hu/) (Deputy Dean, Faculty of Informatics)  
+Incoming Forward Deployed Engineer · BMW Debrecen  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asfand-yar-3966b8291/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yarasfand886@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=asfandyar-prog&label=views&color=0d1117&style=flat-square)](https://github.com/asfandyar-prog)
 
 ---
 
-## 🧠 About Me
+### The Problem I Work On
 
-```python
-class AsfandYar:
-    def __init__(self):
-        self.name         = "Asfand Yar"
-        self.degree       = "BSc Computer Science (Minor: Physics)"
-        self.university   = "University of Debrecen"
-        self.location     = "Debrecen"
-        self.research     = [
-            "Vision Transformers",
-            "Self-Supervised Learning",
-            "Test-Time Adaptation",
-            "Agentic AI",
-            "Retrieval Augmented Generation",
-            "Hybrid Quantum–AI Systems",
-        ]
+Standard ML models are evaluated on clean benchmarks and deployed into messy reality.  
+The gap between the two kills clinical AI systems before they help a single patient.
 
-    def current_focus(self):
-        return "Building systems at the intersection of perception, reasoning, and quantum computation."
+My work closes that gap through **test-time adaptation** — making models update themselves at inference, without labels, without retraining.
+
+---
+
+### Current Research
+
+**JEPA-RobustViT** · BSc Thesis · *supervised by Dr. Bogacsovics Gergő & Sergio Correa (BMW)*
+
+Investigating whether predictive self-supervised pretraining (I-JEPA) produces Vision Transformers inherently more robust to domain shift than reconstruction-based methods (MAE) or contrastive methods (DINO).
+
+| Condition | Accuracy | ECE |
+|-----------|----------|-----|
+| PathMNIST (source) | 80.90% ± 0.17% | 0.014 |
+| → DermaMNIST (shift) | 5.31% ± 0.15% | 0.889 |
+| → BloodMNIST (shift) | 17.78% ± 0.24% | 0.749 |
+| → RetinaMNIST (shift) | 10.58% ± 0.29% | 0.730 |
+
+A 64× rise in ECE under zero-shot transfer. LayerNorm-only entropy minimization recovers this without any target labels.
+
+→ [`JEPA-RobustViT`](https://github.com/asfandyar-prog/JEPA-RobustViT) · [Live Results Dashboard](https://asfandyar-prog.github.io/JEPA-RobustViT)
+
+---
+
+**PS3C Robust Inference** · Research Paper · *with Prof. Balázs Harangi*
+
+The PS3C cervical cancer classification challenge (103,675 images, 7 teams) produced a gradient-boost ensemble with 0.9517 macro F1 on test. On the hidden clinical evaluation set: 0.9245. For individual models the drop reaches 17.7%.
+
+The original paper never addressed why.
+
+I identified preprocessing-induced distribution shift as the root cause and am building a three-stage fix: architecture-aware TTA across heterogeneous model families, sample-adaptive ensemble weighting, and split-conformal selective prediction with 95% coverage guarantees.
+
+→ [`ps3c-robust-inference`](https://github.com/asfandyar-prog/ps3c-robust-inference) · *Target: Medical Image Analysis / ISBI 2027*
+
+---
+
+**MoleScan** · Applied Research · *supervised by Prof. Balázs Harangi · CITDS 2026*
+
+Dermatology backend for mobile microscopy. ViT-B/16 fine-tuned on ISIC 2019 (25,331 images). 90.5% accuracy, 88.3% macro F1, ECE 0.064. LayerNorm TTA deployed at inference to handle the distribution gap between clinical training data and mobile-captured images.
+
+→ [`molescan-backend`](https://github.com/asfandyar-prog/molescan-backend)
+
+---
+
+### Production
+
+**QuantumMind** · 7-agent LangGraph platform · deployed to 60+ students  
+Built from scratch during a 2-week sprint learning FastAPI and React simultaneously.  
+Agents: Theory · Code · RAG · Review · Quiz · Debug · Orchestrator  
+Stack: LangGraph · FastAPI · React · ChromaDB · MCP · SSE streaming
+
+→ [`quantummind`](https://github.com/asfandyar-prog/quantummind)
+
+---
+
+### Teaching
+
+Designed and delivered the University of Debrecen's first **Introduction to Quantum Computing** course using Qiskit — 60+ students, May 2025.  
+Led **IBM Qiskit Fall Fest 2025** — 120+ participants, 70% engagement increase.  
+Guest lectures: AI game-playing algorithms, decision trees alongside Assoc. Prof. Balázs Harangi.
+
+→ [`quantum-computing-labs`](https://github.com/asfandyar-prog/quantum-computing-labs)
+
+---
+
+### Stack
+
+```
+Research     PyTorch · timm · HuggingFace · MedMNIST · SLURM
+Agents       LangGraph · LangChain · MCP · RAG · PEFT/LoRA
+Backend      FastAPI · Docker · SSE · Pydantic · uv
+Quantum      Qiskit · Hybrid Quantum-Classical Systems
 ```
 
 ---
 
-## 🛠 Tech Stack
+### GitHub
 
 <div align="center">
-
-**Languages**
-
-[![Languages](https://skillicons.dev/icons?i=python,java,c,cpp&theme=dark)](https://skillicons.dev)
-
-**AI / ML Frameworks**
-
-[![AI/ML](https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark)](https://skillicons.dev)
-
-**Tools & Infra**
-
-[![Tools](https://skillicons.dev/icons?i=git,github,linux,vscode,docker&theme=dark)](https://skillicons.dev)
-
-**Cloud & Databases**
-
-[![Cloud](https://skillicons.dev/icons?i=gcp,postgres,redis&theme=dark)](https://skillicons.dev)
-
-</div>
-
-<div align="center">
-
-| Domain | Stack |
-|--------|-------|
-| **Deep Learning** | CNNs · Vision Transformers · Representation Learning · Predictive SSL · Neural Networks |
-| **Generative AI** | LangChain · LangGraph · CrewAI · RAG · Multi-Agent Systems · LLM Engineering |
-| **HuggingFace** | Transformers · Datasets · PEFT · Diffusers |
-| **Quantum** | Qiskit · Quantum Circuits · Hybrid Quantum-Classical Systems |
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-<table>
-<tr>
-<td width="50%">
-
-### 🔭 [JEPA-RobustViT](https://github.com/asfandyar-prog/JEPA-RobustViT)
-> Joint Embedding Predictive Architecture fused with robust Vision Transformer design. Explores self-supervised visual representation learning with test-time adaptation under distribution shift.
-
-`Vision Transformers` `JEPA` `SSL` `TTA`
-
-</td>
-<td width="50%">
-
-### ⚛️ [quantum-insight-rag](https://github.com/asfandyar-prog/quantum-insight-rag)
-> A hybrid quantum-classical RAG system that leverages quantum circuits for semantic search and retrieval. Bridges quantum advantage with modern LLM pipelines.
-
-`Qiskit` `RAG` `LangChain` `Hybrid AI`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🤖 [Agentic-Ai](https://github.com/asfandyar-prog/Agentic-Ai)
-> Multi-agent orchestration framework for autonomous AI systems. Implements tool-use, memory, planning, and reflection loops using LangGraph and CrewAI.
-
-`LangGraph` `CrewAI` `Multi-Agent` `Autonomous AI`
-
-</td>
-<td width="50%">
-
-### 🧩 [framework-free-agent](https://github.com/asfandyar-prog/framework-free-agent)
-> Bare-metal agentic AI agent built without LangChain or CrewAI. Raw LLM calls, custom tool routing, and minimal dependency footprint.
-
-`Python` `LLM` `Tool Use` `Zero Dependencies`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📚 [QuantumMind Plateform](https://github.com/asfandyar-prog/quantummind.git)
->A production-grade, multi-agent AI platform for quantum computing education — built by a student who designed and taught the course it's based on.
-
-</td>
-<td width="50%">
-
-### 📄 [NLP-Based-Resume-Screener](https://github.com/asfandyar-prog/NLP-Based-Resume-Screener)
-> Automated resume screening pipeline using NLP and semantic similarity. Matches candidates to job descriptions with explainable ranking scores.
-
-`NLP` `HuggingFace` `Semantic Search` `Transformers`
-
-</td>
-</tr>
-</table>
-</div>
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=asfandyar-prog&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asfandyar-prog&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=asfandyar-prog&theme=tokyonight&hide_border=true&background=0d1117&stroke=6E40C9&ring=6E40C9&fire=ff6b6b&currStreakLabel=6E40C9" />
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-[![Asfand Yar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asfandyar-prog&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6E40C9&line=6E40C9&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asfandyar-prog/asfandyar-prog/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asfandyar-prog/asfandyar-prog/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/asfandyar-prog/asfandyar-prog/output/github-snake.svg" />
-</picture>
-
-</div>
-
----
-
-## 📬 Contact
-
-<div align="center">
-
-| Platform | Link |
-|----------|------|
-| 💼 LinkedIn | [linkedin.com/in/asfandyar-yar](https://linkedin.com/in/asfandyar-yar) |
-| 🐙 GitHub | [github.com/asfandyar-prog](https://github.com/asfandyar-prog) |
-| 📧 Email | [yarasfand886@gmail.com](mailto:yarasfand886@gmail.com) |
-| 💬 WhatsApp | [Message me](https://wa.me/message/+36704026802) |
-
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=asfandyar-prog&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asfandyar-prog&layout=compact&langs_count=6&theme=github_dark&hide_border=true&hide_title=true"/>
 </div>
 
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
-
-*"The best way to predict the future is to invent it." — Alan Kay*
-
+<sub>Debrecen, Hungary · UTC+2 · open to research collaborations and PhD opportunities from 2027</sub>
 </div>
