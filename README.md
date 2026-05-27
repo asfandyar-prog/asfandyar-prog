@@ -24,7 +24,7 @@ asfand = {
     "role"      : "AI Engineer + DL Researcher",
     "location"  : "Debrecen, Hungary 🇭🇺",
     "degree"    : "BSc CS — University of Debrecen",
-    "supervisor": "Prof. Balázs Harangi (Deputy Dean)",
+    
     
     "focus"     : [
         "Agentic AI & LLM Systems",
