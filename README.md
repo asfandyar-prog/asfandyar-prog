@@ -17,7 +17,7 @@
 
 <img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=asfandyar-prog&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff"/>
 
-### 👋 Who I Am
+###  Who I Am
 
 ```python
 asfand = {
